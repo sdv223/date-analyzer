@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Date Duration Analyzer</title>
+        <link rel="stylesheet" type="text/css" href="prac1style.css"/>
+    </head>
+
+    <body>
+        <div class="header">
+        	<label>Determine the Duration between Two Dates</label>
+        </div>
+        
+        <form action="analyzer.php" method="post">
+            <div class="body">
+               <label> Starting date</label>
+                <br/>
+                <input type="text" name="startingmonth" placeholder="mm"/>
+                <input type="text" name="startingday" placeholder="dd"/>
+                <input type="text" name="startingyear" placeholder="yyyy"/>
+                <br/><br/>
+
+                <label>Ending date</label>
+                <br/>
+                <input type="text" name="endingmonth" placeholder="mm"/>
+                <input type="text" name="endingday" placeholder="dd"/>
+                <input type="text" name="endingyear" placeholder="yyyy"/>
+                <br/>
+            </div>
+            <div class='footer'>
+                <input type='submit' name='Submit' Value='Calculate'/>
+            </div>
+        </form>
+
+    </body>
+</html>
